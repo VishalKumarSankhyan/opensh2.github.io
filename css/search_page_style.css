@@ -141,6 +141,8 @@
 .product_wishlist_box:hover.product_wishlist_box a{
     color: red;
 }
+
+
 /* search product view end */
 
 
@@ -390,7 +392,7 @@
 
 @media(max-width:430px){ 
     .search_product_detail_box{
-        max-width: 175px;
+        max-width: 185px;
     }
 
     .product_img_box {
@@ -413,7 +415,7 @@
 
 @media(max-width:399px){ 
     .search_product_detail_box{
-        max-width: 150px;
+        max-width: 175px;
     }
 
     .product_img_box {
@@ -432,22 +434,27 @@
         font-size: 11px;
     }
 
+    .product_wishlist_box a{
+        padding: 6px 8px!important;
+        font-size: 15px!important;
+    }
+
+    .product_rating_box a {
+        font-size: 13px!important;
+    }
+
 }
 
 
 @media(max-width:370px){ 
     .search_product_detail_box{
-        max-width: 130px;
+        max-width: 148px;
     }
 }
 
 
 
 @media(max-width:340px){ 
-    .search_product_detail_box{
-        max-width: 120px;
-    }
-
     .product_img_box {
         width: 120px;
         height: 100px;
@@ -470,12 +477,19 @@
         margin-top: -95px;
     }
 
+  
+
 }
 
+@media(max-width:320px){ 
+    .search_product_detail_box{
+        max-width: 135px;
+    }
+}
 
 @media(max-width:305px){ 
     .search_product_detail_box{
-        max-width: 110px;
+        max-width: 120px;
     }
 
     .product_img_box {
@@ -493,7 +507,7 @@
 
 @media(max-width:280px){ 
     .search_product_detail_box{
-        max-width: 100px;
+        max-width: 110px;
     }
 
     .product_img_box {
@@ -521,25 +535,13 @@
 }
 
 
-
-@media(max-width:280px){ 
+@media(max-width:260px){ 
     .search_product_detail_box{
         max-width: 100px;
     }
-
-    .product_img_box {
-        width: 90px;
-        height: 90px;
-        padding-top: 5px;
-        margin-left: 2px;
-        margin-right: 5px;
-    }
-    .product_wishlist_box {
-        margin-top: -80px;
-    }
-
 }
-@media(max-width:280px){ 
+
+@media(max-width:250px){ 
     .search_product_detail_box{
         max-width: 90px;
     }
@@ -547,9 +549,6 @@
 
 
 @media(max-width:240px){ 
-    .search_product_detail_box{
-        max-width: 80px;
-    }
 
     .product_img_box {
         width: 80px;
@@ -573,6 +572,13 @@
         margin-top: -95px;
     }
 
+}
+
+
+@media(max-width:220px){ 
+    .search_product_detail_box{
+        max-width: 80px;
+    }
 }
 
 @media(max-width:299px){ 
