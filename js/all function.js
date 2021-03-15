@@ -299,15 +299,27 @@ slide_btn2 = document.querySelector('.slide-right');
 var getslide1 = document.getElementById("slide111")
 
 
-var product_slide_width = document.getElementById("slide121")
+var product_slide_width = document.getElementById("v12")
+
 var slidess1 = 0;
+/*
 
 var maxwidth11 = $(getslide1).width();
-var product_slide_width1 = window.innerWidth; 
-console.log(product_slide_width1);
+//var product_slide_width1 = window.innerWidth; 
+//console.log(product_slide_width1);
+var width_1 = $(product_slide_width).width();
+console.log(width_1);
 
+console.log(maxwidth11);*/
 
-console.log(maxwidth11);
+function getTranslate(){
+    var style = window.getComputedStyle(getslide1);
+    var matrix = new WebKitCSSMatrix(style.transform);
+
+    console.log('translatex' ,matrix.m41);
+}
+
+/*1*/
 
 function slideright1() {
     if (slidess1 == -600){
@@ -316,9 +328,10 @@ function slideright1() {
         
     }
     else{
-        getslide1.style.transform = "translateX(" + slidess1 + "px)";
         slidess1 = slidess1 - 300;
+        getslide1.style.transform = "translateX(" + slidess1 + "px)";
     }
+    getTranslate()
 }
 
 function slideleft1() {
@@ -330,8 +343,10 @@ function slideleft1() {
         slidess1 = slidess1 + 300;
         getslide1.style.transform = "translateX(" + slidess1 + "px)";
     }
+    getTranslate()
 }
 
+/*2*/
 
 var getslide2 = document.getElementById("slide112")
 var slidess2 = 0;
@@ -343,8 +358,8 @@ function slideright2() {
         
     }
     else{
-        getslide2.style.transform = "translateX(" + slidess2 + "px)";
         slidess2 = slidess2 - 300;
+        getslide2.style.transform = "translateX(" + slidess2 + "px)";
     }
 }
 
@@ -360,6 +375,7 @@ function slideleft2() {
 
 }
 
+/*3*/
 
 var getslide3 = document.getElementById("slide113")
 var slidess3 = 0;
@@ -373,8 +389,8 @@ function slideright3(){
         
     }
     else{
-        getslide3.style.transform = "translateX(" + slidess3 + "px)";
         slidess3 = slidess3 - 300;
+        getslide3.style.transform = "translateX(" + slidess3 + "px)";
     }
     
 }
@@ -391,7 +407,7 @@ function slideleft3(){
 
 }
 
-
+/*4*/
 
 var getslide4 = document.getElementById("slide114")
 var slidess4 = 0;
@@ -405,8 +421,8 @@ function slideright4(){
         
     }
     else{
-        getslide4.style.transform = "translateX(" + slidess4 + "px)";
         slidess4 = slidess4 - 300;
+        getslide4.style.transform = "translateX(" + slidess4 + "px)";
     }
     
 }
@@ -423,3 +439,202 @@ function slideleft4(){
 
 }
 
+/*5*/
+
+var getslide5 = document.getElementById("slide115")
+var slidess5 = 0;
+
+function slideright5(){
+    
+    
+    if (slidess5 == -600){
+        slidess5 = -600;
+        getslide5.style.transform = "translateX(" + slidess5 + "px)";
+        
+    }
+    else{
+        slidess5 = slidess5 - 300;
+        getslide5.style.transform = "translateX(" + slidess5 + "px)";
+    }
+    
+}
+
+function slideleft5(){
+    if (slidess5 == 0) {
+        getslide5.style.transform = "translateX(" + 0 + "px)";
+    }
+   
+    else {
+        slidess5 = slidess5 + 300;
+        getslide5.style.transform = "translateX(" + slidess5 + "px)";
+    }
+
+}
+
+
+/*6*/
+
+
+var getslide6 = document.getElementById("slide116")
+var slidess6 = 0;
+
+function slideright6(){
+    
+    
+    if (slidess6 == -600){
+        slidess6 = -600;
+        getslide6.style.transform = "translateX(" + slidess6 + "px)";
+        
+    }
+    else{
+        slidess6 = slidess6 - 300;
+        getslide6.style.transform = "translateX(" + slidess6 + "px)";
+    }
+    
+}
+
+function slideleft6(){
+    if (slidess6 == 0) {
+        getslide6.style.transform = "translateX(" + 0 + "px)";
+    }
+   
+    else {
+        slidess6 = slidess6 + 300;
+        getslide6.style.transform = "translateX(" + slidess6 + "px)";
+    }
+
+}
+
+
+
+/*7*/
+
+var getslide7 = document.getElementById("slide117")
+var slidess7 = 0;
+
+function slideright7(){
+    
+    
+    if (slidess7 == -600){
+        slidess7 = -600;
+        getslide7.style.transform = "translateX(" + slidess7 + "px)";
+        
+    }
+    else{
+        slidess7 = slidess7 - 300;
+        getslide7.style.transform = "translateX(" + slidess7 + "px)";
+    }
+    
+}
+
+function slideleft7(){
+    if (slidess7 == 0) {
+        getslide7.style.transform = "translateX(" + 0 + "px)";
+    }
+   
+    else {
+        slidess7 = slidess7 + 300;
+        getslide7.style.transform = "translateX(" + slidess7 + "px)";
+    }
+
+}
+
+
+/*8*/
+
+
+var getslide8 = document.getElementById("slide118")
+var slidess8 = 0;
+
+function slideright8(){
+    
+    
+    if (slidess8 == -600){
+        slidess8 = -600;
+        getslide8.style.transform = "translateX(" + slidess8 + "px)";
+        
+    }
+    else{
+        slidess8 = slidess8 - 300;
+        getslide8.style.transform = "translateX(" + slidess8 + "px)";
+    }
+    
+}
+
+function slideleft8(){
+    if (slidess8 == 0) {
+        getslide8.style.transform = "translateX(" + 0 + "px)";
+    }
+   
+    else {
+        slidess8 = slidess8 + 300;
+        getslide8.style.transform = "translateX(" + slidess8 + "px)";
+    }
+
+}
+
+
+/*9*/
+
+var getslide9 = document.getElementById("slide119")
+var slidess9 = 0;
+
+function slideright9(){
+    
+    
+    if (slidess9 == -600){
+        slidess9 = -600;
+        getslide9.style.transform = "translateX(" + slidess9 + "px)";
+        
+    }
+    else{
+        slidess9 = slidess9 - 300;
+        getslide9.style.transform = "translateX(" + slidess9 + "px)";
+    }
+    
+}
+
+function slideleft9(){
+    if (slidess9 == 0) {
+        getslide9.style.transform = "translateX(" + 0 + "px)";
+    }
+   
+    else {
+        slidess9 = slidess9 + 300;
+        getslide9.style.transform = "translateX(" + slidess9 + "px)";
+    }
+
+}
+
+
+/*10*/
+
+var getslide10 = document.getElementById("slide1110")
+var slidess10 = 0;
+
+function slideright10(){
+    
+    
+    if (slidess10 == -600){
+        slidess10 = -600;
+        getslide10.style.transform = "translateX(" + slidess10 + "px)";
+        
+    }
+    else{
+        slidess10 = slidess10 - 300;
+        getslide10.style.transform = "translateX(" + slidess10 + "px)";
+    }
+    
+}
+
+function slideleft10(){
+    if (slidess10 == 0) {
+        getslide10.style.transform = "translateX(" + 0 + "px)";
+    }
+   
+    else {
+        slidess10 = slidess10 + 300;
+        getslide10.style.transform = "translateX(" + slidess10 + "px)";
+    }
+
+}
