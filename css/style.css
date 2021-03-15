@@ -178,7 +178,7 @@ p{
     z-index: 6;
     display: none;
     fill: currentColor;  
-    color: #7a78789f!important;
+    color: #cac9c9!important;
 }
 .can1.open{
     display:block!important;
@@ -347,7 +347,7 @@ p{
 }
 .l-navbar-2{
     position:relative;
-    height: 90vh;
+    height: 92vh;
     overflow-x: scroll;
     white-space: nowrap;
 }
@@ -524,7 +524,7 @@ yt-img-shadow {
     bottom: 0px;
     right: 0px;
     z-index: 9999;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     border: none;
     color: #fff;
@@ -890,10 +890,11 @@ yt-img-shadow {
     border-radius: 10px;
     font-size: 18px;
     cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 30%);
 }
 #myBtn:hover{
-    background: #4eb9d4;
-    
+    background: #16c9f6;
+    color: #fff;
 }
 
 /*scroll top btn end*/
@@ -1029,7 +1030,8 @@ yt-img-shadow {
     margin: 5px 2px;
     color: #000!important;
     background-color: #fffdfd;
-    border: 1px solid rgb(241 243 246);
+    border: 2px solid #f0f0f9;
+    /*border: 1px solid rgb(241 243 246);*/
 }
 .card-body {
     padding: 10px 0px;
@@ -1596,8 +1598,8 @@ hide scroll bar but not functionality
     margin: 0 auto;
 }
 .product-show-slider:hover .product-image{
-    -webkit-transform: scale(1.15);
-    transform: scale(1.15);
+    -webkit-transform: scale(1.18);
+    transform: scale(1.18);
 }
 .product-image{
     opacity: 99;
@@ -1698,8 +1700,8 @@ hide scroll bar but not functionality
 .main-navigation{
     display:flex;
     background: #ffff;
-    padding: 10px 0px;
-    margin-top: 15px;
+    padding: 8px 0px;
+    margin-top: 10px;
 }
 
 .sub-navigation{
@@ -1708,6 +1710,7 @@ hide scroll bar but not functionality
 .div-navigate{
     text-align: center;
     justify-content: center;
+    max-width: 350px;
 }
 .btn-navigate{
     text-align: center;
@@ -1716,10 +1719,10 @@ hide scroll bar but not functionality
     border: 2px solid  #15c9f6;
     color: white;
     white-space: nowrap!important;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 550;
     transition: all 0.3s ease-in-out;
-    
+    width: 100%;
 }
 
 .btn-navigate:hover{
