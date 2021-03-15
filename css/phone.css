@@ -26,9 +26,7 @@ Collection Media Query
     .collection__box:not(:last-child) {
       margin: 0 0 1.6rem;
     }
-    .containe {
-        flex-direction: column;
-    }
+    
   }
 
   @media only screen and (max-width: 659px) {
@@ -266,6 +264,7 @@ Collection Media Query
     }
     .new1 {
         padding: 0px 18px!important;
+        padding-bottom: 1px!important;
     }
     .nw1{
         margin-left: -20px;
@@ -341,6 +340,10 @@ Collection Media Query
     }
     .div-navigate{
         margin-bottom: 10px;
+    }
+
+    .containe {
+        flex-direction: column;
     }
     
 }
@@ -418,6 +421,10 @@ Collection Media Query
         right: 28%!important;
     }
 
+    .card{
+        margin: 5px 1px !important;
+    }
+
     .card-title {
        
         font-size: 17px!important;
@@ -484,6 +491,10 @@ Collection Media Query
 @media(max-width:399px){ 
     .menu-btn_burger{
         right: 30%!important;
+    }
+
+    .card{
+        margin: 5px 0px !important;
     }
 
 
@@ -582,6 +593,14 @@ Collection Media Query
     }
     .nav-item2 p {
         padding: 15px 15px!important;
+    }
+
+    #myBtn{
+        bottom: 20px!important;
+        right: 20px!important;
+        padding: 8px!important;
+        border-radius: 10px!important;
+        font-size: 16px!important;
     }
 }
 
@@ -893,6 +912,10 @@ Collection Media Query
         height: 2px;
     }
 
+    .slide1{
+        margin-top: 77px!important;
+    }
+    
     .l-navbar i {
         margin-right: 15px!important;
         font-size: 14px!important;
@@ -932,4 +955,5 @@ Collection Media Query
         display: none!important;
     }
     /*175*/
+    
 }
